@@ -1,0 +1,12 @@
+ /tmp
+/var/tmp
+~/.cache
+/var/cache
+/var/log/*.gz
+/var/log/old
+**/*.tmp
+**/*~
+**/__pycache__
+**/node_modules
+**/.pytest_cache
+**/.mypy_cache
