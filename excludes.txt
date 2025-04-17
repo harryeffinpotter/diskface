@@ -11,7 +11,7 @@
 **/*windsurf*
 /var/cache/apt
 /root/.cache 
-.cache
+**/.cache
 .local
 **/.git
 **/cache
@@ -24,3 +24,4 @@
 **/*pycache*
 **/.pyenv
 /home/becky/drive
+**/.local
