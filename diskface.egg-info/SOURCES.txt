@@ -1,0 +1,8 @@
+diskface.py
+setup.py
+diskface.egg-info/PKG-INFO
+diskface.egg-info/SOURCES.txt
+diskface.egg-info/dependency_links.txt
+diskface.egg-info/entry_points.txt
+diskface.egg-info/requires.txt
+diskface.egg-info/top_level.txt

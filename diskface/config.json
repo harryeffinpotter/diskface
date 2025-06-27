@@ -2,11 +2,11 @@
     "min_size_mb": 100,
     "top": 20,
     "include_os": false,
-    "ignore_dotfolders": false,
+    "ignore_dotfolders": true,
     "interactive": true,
-    "files": false,
+    "files": true,
     "auto_clean": false,
-    "currentdirectoryonly": false,
+    "currentdirectoryonly": true,
     "excludes_file": "excludes.txt",
     "temp_paths_file": "temp_paths.txt"
 }

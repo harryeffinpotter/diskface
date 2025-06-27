@@ -1,0 +1,2 @@
+[console_scripts]
+diskface = diskface:main
