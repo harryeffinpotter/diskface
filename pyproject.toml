@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diskface"
+version = "3.8"
+description = "disk usage analyzer with live sorted results"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.8"
+dependencies = ["rich>=13.0"]
+keywords = ["disk", "usage", "analyzer", "cli"]
+classifiers = [
+    "Environment :: Console",
+    "Topic :: System :: Filesystems",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://github.com/ysg/diskface"
+
+[project.scripts]
+diskface = "diskface:main"
+
+[tool.setuptools]
+py-modules = ["diskface"]
